@@ -1,2 +1,2 @@
-# iattack
-A lab to simulate and understand attacks and how to monitor 
+# Aittack
+A lab to simulate, understand Ai attacks and how to monitor 
