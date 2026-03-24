@@ -12,7 +12,7 @@ This repository contains production-ready configurations, alerting rules, and co
 
 ---
 
-## 🎯 What's Inside
+##  What's Inside
 
 | Directory | Description |
 |-----------|-------------|
@@ -25,7 +25,7 @@ This repository contains production-ready configurations, alerting rules, and co
 
 ---
 
-## 🚨 Detection Patterns
+##  Detection Patterns
 
 ### Pattern 1: Adversarial Input Detection
 Detect inputs crafted to fool your model while appearing normal to humans.
@@ -59,7 +59,7 @@ labels:
 
 ---
 
-## 📊 Metrics Reference
+##  Metrics Reference
 
 ### Anomaly Detection
 | Metric | Description |
@@ -91,7 +91,7 @@ labels:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Docker & Docker Compose
@@ -125,7 +125,7 @@ exporter.record_prediction(input_data, prediction, confidence)
 
 ---
 
-## 🔗 Integration
+##  Integration
 
 ### SOC Integration Options
 
@@ -138,7 +138,7 @@ exporter.record_prediction(input_data, prediction, confidence)
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - **Not a silver bullet**: These patterns detect known attack signatures. Zero-day and novel techniques may evade detection initially.
 - **Setup required**: Reconstruction error detection needs a trained autoencoder. Baselines must be calibrated per model.
@@ -146,7 +146,7 @@ exporter.record_prediction(input_data, prediction, confidence)
 
 ---
 
-## 📚 Resources
+##  Resources
 
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial Threat Landscape for AI Systems
@@ -154,19 +154,19 @@ exporter.record_prediction(input_data, prediction, confidence)
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+##  License
 
 Apache 2.0 - See [LICENSE](LICENSE) for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Samuel Desseaux**  
 Founder & CTO - [Erythix](https://erythix.tech) (FR) / Aureonis (BE)
